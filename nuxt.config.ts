@@ -1,16 +1,18 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
+  modules: ['@nuxt/eslint', '@unocss/nuxt', '@vueuse/nuxt'],
   devtools: { enabled: true },
-  eslint: {
-    config:
-    {
-      stylistic: true
-    }
-  },
-  modules: ['@nuxt/eslint'],
+  compatibilityDate: '2024-11-01',
   typescript: {
     typeCheck: true,
     strict: true,
+  },
+  eslint: {
+    config: {
+      stylistic: true,
+    },
+  },
+  unocss: {
+    components: false,
   },
 })
