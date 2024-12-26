@@ -41,4 +41,9 @@ useHead({
 
 <style>
 @import '@unocss/reset/tailwind.css';
+/*  Font reset, place ui fonts last... Does not look vertically aligned :grrr: */
+html {
+  font-family: sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", ui-sans-serif, system-ui;
+}
+
 </style>
