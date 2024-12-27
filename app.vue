@@ -23,19 +23,13 @@ useHead({
     >
       Hello, world!
     </span>
-    <button
-      button-gradient
-      hover:button-hover
-      text-2xl
+    <TextButton
+      class="button-gradient hover:button-hover text-2xl"
+      icon="i-carbon-sun dark:i-carbon-moon"
       @click="toggleDark()"
     >
-      <div
-        i-carbon-sun
-        dark:i-carbon-moon
-        mr-2
-      />
       Show me the {{ isDark ? 'light' : 'dark' }}
-    </button>
+    </TextButton>
   </main>
 </template>
 
@@ -45,5 +39,4 @@ useHead({
 html {
   font-family: sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", ui-sans-serif, system-ui;
 }
-
 </style>
