@@ -5,7 +5,7 @@ const { icon } = defineProps<{
 </script>
 
 <template>
-  <button>
+  <button class="py-2 px-4 font-semibold rounded-lg shadow-md dark:shadow-lg flex">
     <div
       v-if="icon"
       :class="[icon]"

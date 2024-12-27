@@ -11,12 +11,11 @@ export default defineConfig({
     'gradient': 'from-pink-400 via-purple-500 to-green-600',
     'bg-base': 'bg-white dark:bg-gray-100',
     'bg-gradient': 'bg-gradient-to-r gradient bg-size-300% animate-bg-panning animate-direction-alternate',
-    'border-base': 'border-gray-200 dark:border-dark-200',
     'border-gradient': 'border-gradient-to-r gradient',
     'color-base': 'text-gray-900 dark:text-gray-300',
     'color-fade': 'text-gray-900:50 dark:text-gray-300:50',
     'color-gradient': 'bg-gradient bg-clip-text text-transparent',
-    'button-gradient': 'bg-gradient text-gray-100/90 dark:text-gray-300/90 py-2 px-4 font-semibold rounded-lg shadow-md dark:shadow-lg flex',
+    'button-gradient': 'bg-gradient text-gray-100/90 dark:text-gray-300/90',
     'button-hover': 'text-gray-100 dark:text-gray-300',
   },
   presets: [

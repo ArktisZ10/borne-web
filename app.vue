@@ -14,22 +14,24 @@ useHead({
 </script>
 
 <template>
-  <main class="py-20 px-12 flex items-center justify-center flex-col gap-5">
-    <span
-      text-5xl
-      color-gradient
-      font-semibold
-      cursor="default"
-    >
-      Hello, world!
-    </span>
-    <TextButton
-      class="button-gradient hover:button-hover text-2xl"
-      icon="i-carbon-sun dark:i-carbon-moon"
-      @click="toggleDark()"
-    >
-      Show me the {{ isDark ? 'light' : 'dark' }}
-    </TextButton>
+  <main class="p-2">
+    <div class="flex items-center justify-center flex-col gap-5">
+      <span
+        text-5xl
+        color-gradient
+        font-semibold
+        cursor="default"
+      >
+        Hello, world!
+      </span>
+      <TextButton
+        class="button-gradient hover:button-hover text-2xl"
+        icon="i-carbon-sun dark:i-carbon-moon"
+        @click="toggleDark()"
+      >
+        Show me the {{ isDark ? 'light' : 'dark' }}
+      </TextButton>
+    </div>
   </main>
 </template>
 
